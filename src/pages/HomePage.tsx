@@ -56,19 +56,24 @@ export function HomePage() {
           <p className="eyebrow">Featured stays</p>
           <h2>Guest-ready properties with room for a stronger direct-booking experience.</h2>
         </div>
-        <div className="card-grid">
+        <div className="card-grid property-card-grid">
           {properties.map((property) => (
-            <article key={property.slug} className="card">
-              <h3>{property.name}</h3>
-              <p className="muted">{property.location}</p>
-              <p>{property.summary}</p>
-              <div className="button-row">
-                <Link className="button button--secondary" to={`/rentals/${property.slug}`}>
-                  View Property
-                </Link>
-                <Link className="button button--ghost" to="/book-now">
-                  Book Direct
-                </Link>
+            <article key={property.slug} className="card property-card">
+              <div className="property-card__image-wrap">
+                <img className="property-card__image" src={property.imageSrc} alt={property.imageAlt} />
+              </div>
+              <div className="property-card__content">
+                <h3>{property.name}</h3>
+                <p className="muted">{property.location}</p>
+                <p>{property.summary}</p>
+                <div className="button-row">
+                  <Link className="button button--secondary" to={`/rentals/${property.slug}`}>
+                    View Property
+                  </Link>
+                  <Link className="button button--ghost" to="/book-now">
+                    Book Direct
+                  </Link>
+                </div>
               </div>
             </article>
           ))}
