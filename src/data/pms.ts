@@ -1,15 +1,23 @@
 export const pmsHighlights = [
   {
-    title: 'Operational visibility',
-    description: 'See what is happening across properties and day-to-day workflows more clearly.',
+    title: 'Calendar and operational visibility',
+    description:
+      'Keep a clearer view of what is happening across properties, bookings, and day-to-day operational needs.',
   },
   {
     title: 'Cleaner coordination',
-    description: 'Support turnovers and task flow with a system shaped around real rental operations.',
+    description:
+      'Support turnovers and task flow with tools shaped around the realities of short-term rental operations.',
+  },
+  {
+    title: 'Property-level organization',
+    description:
+      'Bring important information, workflows, and oversight together in one more focused operating environment.',
   },
   {
     title: 'Built for practical teams',
-    description: 'Designed for operators who want something more focused than bloated generic software.',
+    description:
+      'Designed for operators who want something more purposeful and manageable than bloated generic software.',
   },
 ];
 
