@@ -10,7 +10,7 @@ export const siteNavigation = [
 
 export const siteHero = {
   eyebrow: 'Sweet Escape Property Management',
-  title: 'Direct-booking-ready stays, professional management, and smarter short-term rental operations.',
+  title: 'Beautiful stays, thoughtful management, and smarter tools for short-term rental operations.',
   description:
-    'We are rebuilding Sweet Escape into a cleaner modern site that helps guests discover properties, helps owners understand our services, and showcases the Sweet Escape PMS platform.',
+    'Sweet Escape brings together guest-ready vacation rentals, hands-on property management support, and a purpose-built PMS platform designed around real-world hosting workflows.',
 };
