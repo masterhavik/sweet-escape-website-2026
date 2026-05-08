@@ -20,7 +20,7 @@ export const properties: Property[] = [
       'A spacious stay designed for comfortable group travel, with room to relax and a more polished guest-ready feel.',
     bookingUrl: 'https://www.airbnb.com/',
     externalBookingLabel: 'Airbnb',
-    imageSrc: '/images/properties/springs-hideaway/hero.jpg',
+    imageSrc: '/images/properties/springs-hideaway/hero.webp',
     imageAlt: 'Springs Hideaway property exterior or featured stay photo',
   },
   {
@@ -32,7 +32,7 @@ export const properties: Property[] = [
       'A unique stay built around character, nostalgia, and a more memorable guest experience in High Springs.',
     bookingUrl: 'https://www.airbnb.com/',
     externalBookingLabel: 'Airbnb',
-    imageSrc: '/images/properties/edith-rv/hero.jpg',
+    imageSrc: '/images/properties/edith-rv/hero.webp',
     imageAlt: 'Edith vintage cruiser RV featured stay photo',
   },
   {
@@ -44,7 +44,7 @@ export const properties: Property[] = [
       'A quieter escape with outdoor appeal and a calm setting for guests who want a more restful stay.',
     bookingUrl: 'https://www.evolve.com/',
     externalBookingLabel: 'Evolve',
-    imageSrc: '/images/properties/private-patio-trenton/hero.jpg',
+    imageSrc: '/images/properties/private-patio-trenton/hero.webp',
     imageAlt: 'Private Patio with View featured property photo in Trenton',
   },
 ];
