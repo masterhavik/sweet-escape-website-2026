@@ -19,18 +19,23 @@ export function PropertyDetailPage() {
 
   return (
     <div className="page-stack">
-      <section className="panel">
-        <p className="eyebrow">Property detail</p>
-        <h1>{property.name}</h1>
-        <p className="lead">{property.location}</p>
-        <p>{property.summary}</p>
-        <div className="button-row">
-          <Link className="button button--primary" to="/book-now">
-            Book Direct
-          </Link>
-          <a className="button button--secondary" href={property.bookingUrl} target="_blank" rel="noreferrer">
-            View Current {property.externalBookingLabel} Listing
-          </a>
+      <section className="panel property-detail-hero">
+        <div className="property-detail-hero__image-wrap">
+          <img className="property-detail-hero__image" src={property.imageSrc} alt={property.imageAlt} />
+        </div>
+        <div className="property-detail-hero__content">
+          <p className="eyebrow">Property detail</p>
+          <h1>{property.name}</h1>
+          <p className="lead">{property.location}</p>
+          <p>{property.description}</p>
+          <div className="button-row">
+            <Link className="button button--primary" to="/book-now">
+              Book Direct
+            </Link>
+            <a className="button button--secondary" href={property.bookingUrl} target="_blank" rel="noreferrer">
+              View Current {property.externalBookingLabel} Listing
+            </a>
+          </div>
         </div>
       </section>
 
