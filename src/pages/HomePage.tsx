@@ -8,16 +8,30 @@ export function HomePage() {
   return (
     <div className="page-stack">
       <section className="hero-section panel">
-        <p className="eyebrow">{siteHero.eyebrow}</p>
-        <h1>{siteHero.title}</h1>
-        <p className="lead">{siteHero.description}</p>
-        <div className="button-row">
-          <Link className="button button--primary" to="/rentals">
-            Explore Rentals
-          </Link>
-          <Link className="button button--secondary" to="/services">
-            Explore Services
-          </Link>
+        <div className="hero-layout">
+          <div className="hero-layout__content">
+            <p className="eyebrow">{siteHero.eyebrow}</p>
+            <h1>{siteHero.title}</h1>
+            <p className="lead">{siteHero.description}</p>
+            <div className="button-row">
+              <Link className="button button--primary" to="/rentals">
+                Explore Rentals
+              </Link>
+              <Link className="button button--secondary" to="/services">
+                Explore Services
+              </Link>
+            </div>
+          </div>
+
+          <div className="hero-layout__media">
+            <div className="hero-shot">
+              <img
+                className="hero-shot__image"
+                src="/images/branding/pms-calendar-hero.jpg"
+                alt="Sweet Escape PMS calendar view on a mobile screen"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
