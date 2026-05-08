@@ -1,17 +1,22 @@
 export const serviceHighlights = [
   {
-    title: 'Short-term rental support',
+    title: 'Setup and launch support',
     description:
-      'Launch-ready help for owners who want their property positioned, prepared, and professionally supported.',
+      'Help new and existing rental properties get guest-ready with a more polished operational foundation.',
   },
   {
-    title: 'Ongoing property management',
+    title: 'Ongoing management support',
     description:
-      'Hands-on coordination and oversight designed to keep operations smoother for both guests and owners.',
+      'Practical day-to-day oversight designed to keep communication, coordination, and guest experience moving smoothly.',
   },
   {
-    title: 'Modern operational tools',
+    title: 'Cleaner and operations coordination',
     description:
-      'Purpose-built systems and workflows that help simplify day-to-day rental operations behind the scenes.',
+      'Workflows that help reduce missed details, improve turnover visibility, and keep teams aligned.',
+  },
+  {
+    title: 'Tools built around real operations',
+    description:
+      'A more tailored approach for operators who want systems shaped by actual short-term rental needs.',
   },
 ];
