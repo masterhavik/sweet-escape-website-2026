@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { properties } from '../data/properties';
-import { serviceHighlights } from '../data/services';
 import { siteHero } from '../data/site';
 import { testimonials } from '../data/testimonials';
 
@@ -24,10 +23,6 @@ export function HomePage() {
       </section>
 
       <section className="panel">
-        <div className="section-heading">
-          <p className="eyebrow">Featured stays</p>
-          <h2>Guest-ready properties with room for a stronger direct-booking experience.</h2>
-        </div>
         <div className="card-grid property-card-grid">
           {properties.map((property) => (
             <article key={property.slug} className="card property-card">
@@ -79,25 +74,6 @@ export function HomePage() {
               product built around short-term rental operations.
             </p>
           </article>
-        </div>
-      </section>
-
-      <section className="panel">
-        <div className="section-heading">
-          <p className="eyebrow">Property management services</p>
-          <h2>Support shaped around real hosting and property-management needs.</h2>
-        </div>
-        <p className="lead">
-          From setup and guest-ready presentation to coordination and ongoing oversight, Sweet Escape
-          is building a more polished service story for owners who want a better-run operation.
-        </p>
-        <div className="card-grid">
-          {serviceHighlights.map((item) => (
-            <article key={item.title} className="card">
-              <h3>{item.title}</h3>
-              <p>{item.description}</p>
-            </article>
-          ))}
         </div>
       </section>
 
