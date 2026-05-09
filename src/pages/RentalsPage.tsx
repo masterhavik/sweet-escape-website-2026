@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { properties } from '../data/properties';
+import { getPlatformButtonClass } from '../data/platformPalette';
 
 export function RentalsPage() {
   return (
@@ -8,8 +9,8 @@ export function RentalsPage() {
         <p className="eyebrow">Rentals</p>
         <h1>Browse featured Sweet Escape stays.</h1>
         <p className="lead">
-          This page will become the main guest-facing browse experience, with direct-booking-ready
-          calls to action and polished property presentation.
+          Explore current Sweet Escape listings and visit each property’s live platform page for
+          booking details and availability.
         </p>
       </section>
 
@@ -27,8 +28,13 @@ export function RentalsPage() {
                 <Link className="button button--primary" to={`/rentals/${property.slug}`}>
                   View Details
                 </Link>
-                <a className="button button--secondary" href={property.bookingUrl} target="_blank" rel="noreferrer">
-                  Current {property.externalBookingLabel} Listing
+                <a
+                  className={`button ${getPlatformButtonClass(property.externalBookingLabel)}`}
+                  href={property.bookingUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {property.externalBookingLabel} Listing
                 </a>
               </div>
             </div>
