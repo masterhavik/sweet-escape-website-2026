@@ -46,7 +46,7 @@ export function HomePage() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Current {property.externalBookingLabel} Listing
+                    {property.externalBookingLabel} Listing
                   </a>
                 </div>
               </div>
