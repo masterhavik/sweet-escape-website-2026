@@ -19,7 +19,7 @@ export function HomePage() {
               Explore Services
             </Link>
             <Link className="button button--ghost" to="/sweet-escape-pms">
-              Explore Software
+              Explore PMS App
             </Link>
           </div>
         </div>
@@ -48,7 +48,7 @@ export function HomePage() {
             </article>
           ))}
         </div>
-        <div className="button-row">
+        <div className="button-row button-row--centered">
           <Link className="button button--primary" to="/rentals">
             SEE MORE LISTINGS
           </Link>
