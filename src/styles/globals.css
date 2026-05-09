@@ -164,6 +164,22 @@ a:hover {
   color: var(--color-ink);
 }
 
+.site-footer__brand-block {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.site-footer__logo {
+  width: 96px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: 0 8px 18px rgba(35, 71, 101, 0.08);
+  background: rgba(255, 255, 255, 0.55);
+  padding: 0.35rem;
+}
+
 .page-stack {
   display: flex;
   flex-direction: column;
@@ -379,6 +395,24 @@ li {
   background: rgba(251, 248, 243, 0.66);
 }
 
+.button--outline-accent {
+  background: transparent;
+  color: var(--color-harbor);
+  border: 1px solid rgba(35, 71, 101, 0.18);
+  box-shadow: none;
+}
+
+.button--outline-accent:hover {
+  background: rgba(220, 239, 234, 0.34);
+}
+
+.button--see-more {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding-inline: 1.4rem;
+  min-height: 2.25rem;
+}
+
 .button--platform-airbnb,
 .button--platform-vrbo,
 .button--platform-booking,
@@ -443,6 +477,10 @@ li {
   .site-footer__inner {
     grid-template-columns: 1fr;
   }
+
+  .site-footer__brand-block {
+    align-items: flex-start;
+  }
 }
 
 @media (max-width: 640px) {
@@ -476,5 +514,9 @@ li {
 
   .property-card__content {
     padding: 1.2rem;
+  }
+
+  .site-footer__brand-block {
+    flex-direction: column;
   }
 }

@@ -55,8 +55,8 @@ export function HomePage() {
           ))}
         </div>
         <div className="button-row button-row--centered">
-          <Link className="button button--primary" to="/rentals">
-            SEE MORE LISTINGS
+          <Link className="button button--outline-accent button--see-more" to="/rentals">
+            See More Listings
           </Link>
         </div>
       </section>
@@ -92,7 +92,6 @@ export function HomePage() {
       </section>
 
       <section className="panel testimonial-panel">
-        <p className="eyebrow">Client feedback</p>
         <blockquote>“{testimonials[0].quote}”</blockquote>
         <p className="muted">{testimonials[0].attribution}</p>
       </section>
