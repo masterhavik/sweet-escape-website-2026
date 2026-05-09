@@ -40,9 +40,14 @@ export function HomePage() {
                   <Link className="button button--secondary" to={`/rentals/${property.slug}`}>
                     View Property
                   </Link>
-                  <Link className="button button--ghost" to="/book-now">
-                    Book Direct
-                  </Link>
+                  <a
+                    className="button button--ghost"
+                    href={property.bookingUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Current {property.externalBookingLabel} Listing
+                  </a>
                 </div>
               </div>
             </article>
