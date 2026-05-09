@@ -8,30 +8,47 @@ export function HomePage() {
   return (
     <div className="page-stack">
       <section className="hero-section panel">
-        <div className="hero-layout">
-          <div className="hero-layout__content">
-            <p className="eyebrow">{siteHero.eyebrow}</p>
-            <h1>{siteHero.title}</h1>
-            <p className="lead">{siteHero.description}</p>
-            <div className="button-row">
-              <Link className="button button--primary" to="/rentals">
-                Explore Rentals
-              </Link>
-              <Link className="button button--secondary" to="/services">
-                Explore Services
-              </Link>
-            </div>
+        <div className="hero-layout__content">
+          <p className="eyebrow">{siteHero.eyebrow}</p>
+          <h1>{siteHero.title}</h1>
+          <p className="lead">{siteHero.description}</p>
+          <div className="button-row">
+            <Link className="button button--primary" to="/rentals">
+              Explore Rentals
+            </Link>
+            <Link className="button button--secondary" to="/services">
+              Explore Services
+            </Link>
           </div>
+        </div>
+      </section>
 
-          <div className="hero-layout__media">
-            <div className="hero-shot">
-              <img
-                className="hero-shot__image"
-                src="/images/branding/pms-calendar-hero.jpg"
-                alt="Sweet Escape PMS calendar view on a mobile screen"
-              />
-            </div>
-          </div>
+      <section className="panel">
+        <div className="section-heading">
+          <p className="eyebrow">Featured stays</p>
+          <h2>Guest-ready properties with room for a stronger direct-booking experience.</h2>
+        </div>
+        <div className="card-grid property-card-grid">
+          {properties.map((property) => (
+            <article key={property.slug} className="card property-card">
+              <div className="property-card__image-wrap">
+                <img className="property-card__image" src={property.imageSrc} alt={property.imageAlt} />
+              </div>
+              <div className="property-card__content">
+                <h3>{property.name}</h3>
+                <p className="muted">{property.location}</p>
+                <p>{property.summary}</p>
+                <div className="button-row">
+                  <Link className="button button--secondary" to={`/rentals/${property.slug}`}>
+                    View Property
+                  </Link>
+                  <Link className="button button--ghost" to="/book-now">
+                    Book Direct
+                  </Link>
+                </div>
+              </div>
+            </article>
+          ))}
         </div>
       </section>
 
@@ -67,35 +84,6 @@ export function HomePage() {
 
       <section className="panel">
         <div className="section-heading">
-          <p className="eyebrow">Featured stays</p>
-          <h2>Guest-ready properties with room for a stronger direct-booking experience.</h2>
-        </div>
-        <div className="card-grid property-card-grid">
-          {properties.map((property) => (
-            <article key={property.slug} className="card property-card">
-              <div className="property-card__image-wrap">
-                <img className="property-card__image" src={property.imageSrc} alt={property.imageAlt} />
-              </div>
-              <div className="property-card__content">
-                <h3>{property.name}</h3>
-                <p className="muted">{property.location}</p>
-                <p>{property.summary}</p>
-                <div className="button-row">
-                  <Link className="button button--secondary" to={`/rentals/${property.slug}`}>
-                    View Property
-                  </Link>
-                  <Link className="button button--ghost" to="/book-now">
-                    Book Direct
-                  </Link>
-                </div>
-              </div>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section className="panel">
-        <div className="section-heading">
           <p className="eyebrow">Property management services</p>
           <h2>Support shaped around real hosting and property-management needs.</h2>
         </div>
@@ -113,20 +101,32 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="panel">
-        <div className="section-heading">
-          <p className="eyebrow">Sweet Escape PMS</p>
-          <h2>Purpose-built software deserves a real place in the brand story.</h2>
+      <section className="panel pms-spotlight">
+        <div className="pms-spotlight__content">
+          <div className="section-heading">
+            <p className="eyebrow">Sweet Escape PMS</p>
+            <h2>Purpose-built software deserves a real place in the brand story.</h2>
+          </div>
+          <p className="lead">
+            Sweet Escape PMS is being presented here as a dedicated platform for short-term rental
+            operations, designed to help bring more visibility, coordination, and structure to the
+            day-to-day side of property management.
+          </p>
+          <div className="button-row">
+            <Link className="button button--primary" to="/sweet-escape-pms">
+              Learn About the Platform
+            </Link>
+          </div>
         </div>
-        <p className="lead">
-          Sweet Escape PMS is being presented here as a dedicated platform for short-term rental
-          operations, designed to help bring more visibility, coordination, and structure to the
-          day-to-day side of property management.
-        </p>
-        <div className="button-row">
-          <Link className="button button--primary" to="/sweet-escape-pms">
-            Learn About the Platform
-          </Link>
+
+        <div className="pms-spotlight__media">
+          <div className="hero-shot pms-spotlight__shot">
+            <img
+              className="hero-shot__image"
+              src="/images/branding/pms-calendar-hero.jpg"
+              alt="Sweet Escape PMS calendar view on a mobile screen"
+            />
+          </div>
         </div>
       </section>
 
