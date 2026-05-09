@@ -33,12 +33,19 @@ export function SiteLayout() {
 
       <footer className="site-footer">
         <div className="site-footer__inner">
-          <div>
-            <h2>Sweet Escape Property Management</h2>
-            <p>
-              Professional property management, guest-ready stays, and purpose-built
-              operational tools for modern short-term rental businesses.
-            </p>
+          <div className="site-footer__brand-block">
+            <img
+              className="site-footer__logo"
+              src="/images/branding/header-brand.jpg"
+              alt="Sweet Escape Property Management logo"
+            />
+            <div>
+              <h2>Sweet Escape Property Management</h2>
+              <p>
+                Professional property management, guest-ready stays, and purpose-built
+                operational tools for modern short-term rental businesses.
+              </p>
+            </div>
           </div>
           <div>
             <p>Email: sweetescapepropertymanagement@gmail.com</p>
