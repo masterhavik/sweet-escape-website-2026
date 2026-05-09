@@ -18,6 +18,9 @@ export function HomePage() {
             <Link className="button button--secondary" to="/services">
               Explore Services
             </Link>
+            <Link className="button button--ghost" to="/sweet-escape-pms">
+              Explore Software
+            </Link>
           </div>
         </div>
       </section>
@@ -44,6 +47,11 @@ export function HomePage() {
               </div>
             </article>
           ))}
+        </div>
+        <div className="button-row">
+          <Link className="button button--primary" to="/rentals">
+            SEE MORE LISTINGS
+          </Link>
         </div>
       </section>
 
@@ -74,35 +82,6 @@ export function HomePage() {
               product built around short-term rental operations.
             </p>
           </article>
-        </div>
-      </section>
-
-      <section className="panel pms-spotlight">
-        <div className="pms-spotlight__content">
-          <div className="section-heading">
-            <p className="eyebrow">Sweet Escape PMS</p>
-            <h2>Purpose-built software deserves a real place in the brand story.</h2>
-          </div>
-          <p className="lead">
-            Sweet Escape PMS is being presented here as a dedicated platform for short-term rental
-            operations, designed to help bring more visibility, coordination, and structure to the
-            day-to-day side of property management.
-          </p>
-          <div className="button-row">
-            <Link className="button button--primary" to="/sweet-escape-pms">
-              Learn About the Platform
-            </Link>
-          </div>
-        </div>
-
-        <div className="pms-spotlight__media">
-          <div className="hero-shot pms-spotlight__shot">
-            <img
-              className="hero-shot__image"
-              src="/images/branding/pms-calendar-hero.jpg"
-              alt="Sweet Escape PMS calendar view on a mobile screen"
-            />
-          </div>
         </div>
       </section>
 
