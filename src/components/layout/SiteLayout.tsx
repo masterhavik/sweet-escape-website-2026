@@ -6,9 +6,12 @@ export function SiteLayout() {
     <div className="site-shell">
       <header className="site-header">
         <div className="site-header__inner">
-          <NavLink to="/" className="site-brand">
-            <span className="site-brand__eyebrow">Sweet Escape</span>
-            <span className="site-brand__name">Property Management</span>
+          <NavLink to="/" className="site-brand" aria-label="Sweet Escape Property Management home">
+            <img
+              className="site-brand__logo"
+              src="/images/branding/header-brand.png"
+              alt="Sweet Escape Property Management logo"
+            />
           </NavLink>
 
           <nav className="site-nav" aria-label="Primary navigation">
@@ -34,13 +37,12 @@ export function SiteLayout() {
       <footer className="site-footer">
         <div className="site-footer__inner">
           <div className="site-footer__brand-block">
-            <img
-              className="site-footer__logo"
-              src="/images/branding/header-brand.png"
-              alt="Sweet Escape Property Management logo"
-            />
+            <div className="site-footer__brand-text">
+              <span className="site-footer__brand-eyebrow">Sweet Escape</span>
+              <span className="site-footer__brand-name">Property Management</span>
+            </div>
           </div>
-          <div>
+          <div className="site-footer__contact">
             <p>Email: sweetescapepropertymanagement@gmail.com</p>
             <p>Consultations by appointment</p>
           </div>
