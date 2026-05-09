@@ -36,7 +36,7 @@ export function SiteLayout() {
           <div className="site-footer__brand-block">
             <img
               className="site-footer__logo"
-              src="/images/branding/header-brand.jpg"
+              src="/images/branding/header-brand.png"
               alt="Sweet Escape Property Management logo"
             />
             <div>
