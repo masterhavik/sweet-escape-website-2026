@@ -39,13 +39,6 @@ export function SiteLayout() {
               src="/images/branding/header-brand.png"
               alt="Sweet Escape Property Management logo"
             />
-            <div>
-              <h2>Sweet Escape Property Management</h2>
-              <p>
-                Professional property management, guest-ready stays, and purpose-built
-                operational tools for modern short-term rental businesses.
-              </p>
-            </div>
           </div>
           <div>
             <p>Email: sweetescapepropertymanagement@gmail.com</p>
