@@ -76,9 +76,9 @@ a:hover {
   top: 0;
   z-index: 10;
   backdrop-filter: blur(14px);
-  background: rgba(251, 248, 243, 0.86);
-  border-bottom: 1px solid rgba(35, 71, 101, 0.08);
-  box-shadow: 0 8px 26px rgba(35, 71, 101, 0.04);
+  background: rgba(251, 248, 243, 0.82);
+  border-bottom: 1px solid rgba(35, 71, 101, 0.06);
+  box-shadow: 0 6px 22px rgba(35, 71, 101, 0.035);
 }
 
 .site-header__inner,
@@ -130,18 +130,18 @@ a:hover {
 
 .site-nav__link--active {
   color: var(--color-harbor);
-  border-bottom-color: rgba(63, 127, 168, 0.38);
+  border-bottom-color: rgba(63, 127, 168, 0.3);
 }
 
 .site-main {
   width: min(1160px, calc(100% - 2rem));
   margin: 0 auto;
-  padding: 2.4rem 0 4.5rem;
+  padding: 2.5rem 0 4.75rem;
 }
 
 .site-footer {
-  border-top: 1px solid rgba(35, 71, 101, 0.08);
-  background: linear-gradient(180deg, rgba(220, 239, 234, 0.38) 0%, rgba(244, 238, 227, 0.5) 100%);
+  border-top: 1px solid rgba(35, 71, 101, 0.06);
+  background: linear-gradient(180deg, rgba(220, 239, 234, 0.32) 0%, rgba(244, 238, 227, 0.42) 100%);
 }
 
 .site-footer__inner {
@@ -159,7 +159,7 @@ a:hover {
 .page-stack {
   display: flex;
   flex-direction: column;
-  gap: 2.6rem;
+  gap: 2.9rem;
 }
 
 .panel {
@@ -171,11 +171,43 @@ a:hover {
 }
 
 .hero-section {
-  padding: 3.6rem 2.6rem;
-  border-radius: 34px;
+  padding: 3.3rem 2.2rem;
+  border-radius: 36px;
   background:
-    linear-gradient(140deg, rgba(220, 239, 234, 0.58) 0%, rgba(251, 248, 243, 0.78) 48%, rgba(244, 238, 227, 0.82) 100%);
-  box-shadow: 0 18px 45px rgba(35, 71, 101, 0.05);
+    linear-gradient(140deg, rgba(220, 239, 234, 0.44) 0%, rgba(251, 248, 243, 0.7) 48%, rgba(244, 238, 227, 0.74) 100%);
+  box-shadow: 0 14px 38px rgba(35, 71, 101, 0.04);
+}
+
+.hero-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(320px, 420px);
+  gap: 2.2rem;
+  align-items: center;
+}
+
+.hero-layout__content {
+  max-width: 38rem;
+}
+
+.hero-layout__media {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-shot {
+  width: 100%;
+  max-width: 390px;
+  padding: 0.9rem;
+  border-radius: 32px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.62) 0%, rgba(220, 239, 234, 0.48) 100%);
+  border: 1px solid rgba(35, 71, 101, 0.06);
+  box-shadow: 0 16px 36px rgba(35, 71, 101, 0.07);
+}
+
+.hero-shot__image {
+  width: 100%;
+  border-radius: 26px;
+  object-fit: cover;
 }
 
 .section-heading {
@@ -238,33 +270,33 @@ li {
 .card-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.4rem;
+  gap: 1.45rem;
 }
 
 .card {
-  padding: 1.4rem;
-  border-radius: 24px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(244, 238, 227, 0.42) 100%);
-  border: 1px solid rgba(35, 71, 101, 0.06);
-  box-shadow: 0 10px 26px rgba(35, 71, 101, 0.045);
+  padding: 1.35rem;
+  border-radius: 26px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.38) 0%, rgba(244, 238, 227, 0.34) 100%);
+  border: 1px solid rgba(35, 71, 101, 0.045);
+  box-shadow: 0 8px 22px rgba(35, 71, 101, 0.035);
 }
 
 .property-card-grid {
-  gap: 1.5rem;
+  gap: 1.6rem;
 }
 
 .property-card {
   padding: 0;
   overflow: hidden;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.72) 0%, rgba(244, 238, 227, 0.58) 100%);
-  border: 1px solid rgba(35, 71, 101, 0.08);
-  box-shadow: 0 14px 32px rgba(35, 71, 101, 0.06);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(244, 238, 227, 0.54) 100%);
+  border: 1px solid rgba(35, 71, 101, 0.06);
+  box-shadow: 0 12px 28px rgba(35, 71, 101, 0.05);
 }
 
 .property-card__image-wrap {
   aspect-ratio: 16 / 10;
   background: linear-gradient(135deg, rgba(220, 239, 234, 0.95) 0%, rgba(244, 238, 227, 0.95) 100%);
-  border-bottom: 1px solid rgba(35, 71, 101, 0.06);
+  border-bottom: 1px solid rgba(35, 71, 101, 0.05);
 }
 
 .property-card__image {
@@ -289,7 +321,7 @@ li {
   border-radius: 24px;
   overflow: hidden;
   background: linear-gradient(135deg, rgba(220, 239, 234, 0.95) 0%, rgba(244, 238, 227, 0.95) 100%);
-  box-shadow: 0 16px 36px rgba(35, 71, 101, 0.055);
+  box-shadow: 0 14px 32px rgba(35, 71, 101, 0.05);
 }
 
 .property-detail-hero__image {
@@ -319,7 +351,7 @@ li {
   padding: 0.75rem 1.15rem;
   border-radius: 999px;
   font-weight: 600;
-  box-shadow: 0 8px 18px rgba(35, 71, 101, 0.07);
+  box-shadow: 0 7px 16px rgba(35, 71, 101, 0.06);
 }
 
 .button:hover {
@@ -336,15 +368,15 @@ li {
 }
 
 .button--secondary {
-  background: rgba(220, 239, 234, 0.88);
+  background: rgba(220, 239, 234, 0.82);
   color: var(--color-harbor);
-  border: 1px solid rgba(93, 158, 160, 0.16);
+  border: 1px solid rgba(93, 158, 160, 0.13);
 }
 
 .button--ghost {
-  border: 1px solid rgba(35, 71, 101, 0.14);
+  border: 1px solid rgba(35, 71, 101, 0.12);
   color: var(--color-harbor);
-  background: rgba(251, 248, 243, 0.72);
+  background: rgba(251, 248, 243, 0.66);
 }
 
 .list-block {
@@ -353,16 +385,27 @@ li {
 }
 
 .testimonial-panel {
-  padding: 2rem 2.2rem;
-  border-radius: 30px;
-  background: linear-gradient(180deg, rgba(220, 239, 234, 0.5) 0%, rgba(251, 248, 243, 0.72) 100%);
-  box-shadow: 0 14px 34px rgba(35, 71, 101, 0.045);
+  padding: 1.9rem 2rem;
+  border-radius: 32px;
+  background: linear-gradient(180deg, rgba(220, 239, 234, 0.42) 0%, rgba(251, 248, 243, 0.62) 100%);
+  box-shadow: 0 10px 28px rgba(35, 71, 101, 0.035);
 }
 
 .testimonial-panel blockquote {
   font-size: 1.2rem;
   line-height: 1.5;
   color: var(--color-harbor);
+}
+
+@media (max-width: 980px) {
+  .hero-layout,
+  .property-detail-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-layout__media {
+    justify-content: flex-start;
+  }
 }
 
 @media (max-width: 900px) {
@@ -381,8 +424,7 @@ li {
   }
 
   .card-grid,
-  .site-footer__inner,
-  .property-detail-hero {
+  .site-footer__inner {
     grid-template-columns: 1fr;
   }
 }
@@ -393,8 +435,17 @@ li {
   }
 
   .hero-section {
-    padding: 2.1rem 1.5rem;
-    border-radius: 26px;
+    padding: 2rem 1.4rem;
+    border-radius: 28px;
+  }
+
+  .hero-shot {
+    padding: 0.65rem;
+    border-radius: 24px;
+  }
+
+  .hero-shot__image {
+    border-radius: 18px;
   }
 
   .testimonial-panel {
