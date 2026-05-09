@@ -180,7 +180,7 @@ a:hover {
 
 .hero-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(320px, 420px);
+  grid-template-columns: minmax(0, 1.05fr) minmax(220px, 300px);
   gap: 2.2rem;
   align-items: center;
 }
@@ -196,17 +196,17 @@ a:hover {
 
 .hero-shot {
   width: 100%;
-  max-width: 390px;
-  padding: 0.9rem;
-  border-radius: 32px;
+  max-width: 195px;
+  padding: 0.45rem;
+  border-radius: 24px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.62) 0%, rgba(220, 239, 234, 0.48) 100%);
   border: 1px solid rgba(35, 71, 101, 0.06);
-  box-shadow: 0 16px 36px rgba(35, 71, 101, 0.07);
+  box-shadow: 0 12px 26px rgba(35, 71, 101, 0.06);
 }
 
 .hero-shot__image {
   width: 100%;
-  border-radius: 26px;
+  border-radius: 18px;
   object-fit: cover;
 }
 
@@ -440,12 +440,13 @@ li {
   }
 
   .hero-shot {
-    padding: 0.65rem;
-    border-radius: 24px;
+    padding: 0.4rem;
+    max-width: 180px;
+    border-radius: 20px;
   }
 
   .hero-shot__image {
-    border-radius: 18px;
+    border-radius: 14px;
   }
 
   .testimonial-panel {
