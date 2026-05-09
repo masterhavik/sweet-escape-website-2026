@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { properties } from '../data/properties';
+import { getPlatformButtonClass } from '../data/platformPalette';
 import { siteHero } from '../data/site';
 import { testimonials } from '../data/testimonials';
 
@@ -41,7 +42,7 @@ export function HomePage() {
                     View Property
                   </Link>
                   <a
-                    className="button button--ghost"
+                    className={`button ${getPlatformButtonClass(property.externalBookingLabel)}`}
                     href={property.bookingUrl}
                     target="_blank"
                     rel="noreferrer"

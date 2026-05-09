@@ -20,6 +20,14 @@
   --color-primary: #3f7fa8;
   --color-accent: #6bafa8;
   --color-primary-hover: #316b8e;
+  --platform-airbnb: #d97c76;
+  --platform-vrbo: #d98fb3;
+  --platform-booking: #6f8fd6;
+  --platform-evolve: #7dbb91;
+  --platform-ownerblock: #9a84c7;
+  --platform-expedia: #d9b36f;
+  --platform-direct: #6fb9c9;
+  --platform-other: #a99b93;
 }
 
 * {
@@ -198,26 +206,6 @@ a:hover {
   object-fit: cover;
 }
 
-.pms-spotlight {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(180px, 240px);
-  gap: 1.8rem;
-  align-items: center;
-}
-
-.pms-spotlight__content {
-  max-width: 42rem;
-}
-
-.pms-spotlight__media {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.pms-spotlight__shot {
-  max-width: 180px;
-}
-
 .section-heading {
   margin-bottom: 0.85rem;
 }
@@ -391,6 +379,27 @@ li {
   background: rgba(251, 248, 243, 0.66);
 }
 
+.button--platform-airbnb,
+.button--platform-vrbo,
+.button--platform-booking,
+.button--platform-evolve,
+.button--platform-ownerblock,
+.button--platform-expedia,
+.button--platform-direct,
+.button--platform-other {
+  color: #ffffff;
+  border: 0;
+}
+
+.button--platform-airbnb { background: var(--platform-airbnb); }
+.button--platform-vrbo { background: var(--platform-vrbo); }
+.button--platform-booking { background: var(--platform-booking); }
+.button--platform-evolve { background: var(--platform-evolve); }
+.button--platform-ownerblock { background: var(--platform-ownerblock); }
+.button--platform-expedia { background: var(--platform-expedia); }
+.button--platform-direct { background: var(--platform-direct); }
+.button--platform-other { background: var(--platform-other); }
+
 .list-block {
   padding-left: 1.2rem;
   margin-bottom: 0;
@@ -410,13 +419,8 @@ li {
 }
 
 @media (max-width: 980px) {
-  .pms-spotlight,
   .property-detail-hero {
     grid-template-columns: 1fr;
-  }
-
-  .pms-spotlight__media {
-    justify-content: flex-start;
   }
 }
 
