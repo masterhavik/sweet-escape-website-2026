@@ -3,14 +3,13 @@ export const siteNavigation = [
   { label: 'Rentals', to: '/rentals' },
   { label: 'Book Now', to: '/book-now' },
   { label: 'Services', to: '/services' },
-  { label: 'Sweet Escape PMS', to: '/sweet-escape-pms' },
   { label: 'About', to: '/about' },
   { label: 'Contact', to: '/contact' },
 ] as const;
 
 export const siteHero = {
   eyebrow: 'Sweet Escape Property Management',
-  title: 'Beautiful stays, thoughtful management, and smarter tools for short-term rental operations.',
+  title: 'Beautiful stays and thoughtful management for Gainesville-area homes.',
   description:
-    'Sweet Escape brings together guest-ready vacation rentals, hands-on property management support, and a purpose-built PMS platform designed around real-world hosting workflows.',
+    'Sweet Escape offers guest-ready vacation rentals, hands-on property care, and practical support for owners who want their homes looked after with attention and consistency.',
 };
