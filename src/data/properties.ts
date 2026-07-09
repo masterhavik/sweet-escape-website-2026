@@ -75,4 +75,18 @@ export const properties: Property[] = [
     imageSrc: '/images/properties/the-cottage-at-high-springs/hero.avif',
     imageAlt: 'The Cottage at High Springs historic cottage exterior or featured stay photo',
   },
+  {
+    slug: 'pickard-springs',
+    name: 'Pickard Springs! Private paradise on the Santa Fe',
+    location: 'Santa Fe River near High Springs, Florida',
+    summary:
+      'Private 20-acre Santa Fe River spring retreat with two renovated rental units for up to 10 guests.',
+    description:
+      'Pickard Springs is a private spring on the Santa Fe River between Poe Springs and Ginnie Springs, set on 20 acres with two renovated rental units that can be reserved together for up to 10 guests. The upstairs unit includes 2 bedrooms, 1 full bath, a full kitchen with updated appliances, 2 full beds, and a pull-out sofa. The downstairs unit includes 1 bedroom with a full-size bed, a living-area pull-out sofa, a kitchenette, and a full-size washer and dryer.',
+    bookingUrl:
+      'https://www.airbnb.com/rooms/1709765157178956368?unique_share_id=7c9b1003-a026-4ba8-801a-d68a22da09e8&viralityEntryPoint=1&s=76',
+    externalBookingLabel: 'Airbnb',
+    imageSrc: '/images/properties/pickard-springs/hero.avif',
+    imageAlt: 'Pickard Springs private Santa Fe River spring retreat',
+  },
 ];

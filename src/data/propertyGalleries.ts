@@ -322,4 +322,75 @@ export const propertyGalleries: Record<string, PropertyGalleryDetails> = {
       },
     ],
   },
+,
+
+  'pickard-springs': {
+    eyebrow: 'Private Santa Fe River spring',
+    shortIntro:
+      'A private 20-acre spring retreat on the Santa Fe River between Poe Springs and Ginnie Springs, with two renovated rental units that can be reserved together.',
+    highlights: [
+      'Private spring on the Santa Fe River',
+      '20-acre setting between Poe Springs and Ginnie Springs',
+      'Two renovated rental units for up to 10 guests total',
+      'Upstairs full kitchen plus downstairs kitchenette and laundry',
+    ],
+    bestFor: ['Family groups', 'Springs trips', 'River weekends', 'Multi-unit stays'],
+    photos: [
+      {
+        src: '/images/properties/pickard-springs/01-unit_1-livingroom.avif',
+        alt: 'Unit 1 living room at Pickard Springs',
+        caption: 'Unit 1 living room',
+      },
+      {
+        src: '/images/properties/pickard-springs/02-unit_1-bedroom.avif',
+        alt: 'Unit 1 bedroom at Pickard Springs',
+        caption: 'Unit 1 bedroom',
+      },
+      {
+        src: '/images/properties/pickard-springs/03-unit_2-livingroom.avif',
+        alt: 'Unit 2 living room at Pickard Springs',
+        caption: 'Unit 2 living room',
+      },
+      {
+        src: '/images/properties/pickard-springs/04-unit_2-kitchen.avif',
+        alt: 'Unit 2 kitchen at Pickard Springs',
+        caption: 'Unit 2 kitchen',
+      },
+      {
+        src: '/images/properties/pickard-springs/05-unit_2-bedroom1.avif',
+        alt: 'First Unit 2 bedroom at Pickard Springs',
+        caption: 'Unit 2 bedroom',
+      },
+      {
+        src: '/images/properties/pickard-springs/06-unit_2-bedroom2.avif',
+        alt: 'Second Unit 2 bedroom at Pickard Springs',
+        caption: 'Unit 2 second bedroom',
+      },
+      {
+        src: '/images/properties/pickard-springs/07-unit_2-bathroom.avif',
+        alt: 'Unit 2 bathroom at Pickard Springs',
+        caption: 'Unit 2 bathroom',
+      },
+      {
+        src: '/images/properties/pickard-springs/08-unit_1-bathhouse1.avif',
+        alt: 'Unit 1 bathhouse at Pickard Springs',
+        caption: 'Unit 1 bathhouse',
+      },
+      {
+        src: '/images/properties/pickard-springs/09-unit_1-bathhouse2.avif',
+        alt: 'Second view of Unit 1 bathhouse at Pickard Springs',
+        caption: 'Unit 1 bathhouse view',
+      },
+      {
+        src: '/images/properties/pickard-springs/10-unit_1-bathhouse_exterior.avif',
+        alt: 'Unit 1 bathhouse exterior at Pickard Springs',
+        caption: 'Bathhouse exterior',
+      },
+      {
+        src: '/images/properties/pickard-springs/11-private_spring.avif',
+        alt: 'Private spring at Pickard Springs on the Santa Fe River',
+        caption: 'Private spring',
+      },
+    ],
+  }
 };
