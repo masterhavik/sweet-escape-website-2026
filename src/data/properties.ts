@@ -62,4 +62,17 @@ export const properties: Property[] = [
     imageSrc: '/images/properties/paddle-swim-high-springs/hero.jpg',
     imageAlt: 'Paddle, Swim and More charming High Springs home exterior',
   },
+  {
+    slug: 'the-cottage-at-high-springs',
+    name: 'The Cottage at High Springs',
+    location: 'High Springs, Florida',
+    summary: 'Historic 1940s cottage near downtown High Springs, springs, rivers, and trails.',
+    description:
+      'A beautifully restored 1940s cottage tucked in a quiet neighborhood minutes from downtown High Springs, with cozy interiors, vintage character, modern comfort, and private outdoor seating after days exploring the springs, rivers, trails, shops, and restaurants.',
+    bookingUrl:
+      'https://www.airbnb.com/rooms/1673415585901992128?unique_share_id=2b7d3870-bfcb-4d7b-945d-fcaf30ce08c6&viralityEntryPoint=1&s=76',
+    externalBookingLabel: 'Airbnb',
+    imageSrc: '/images/properties/the-cottage-at-high-springs/hero.avif',
+    imageAlt: 'The Cottage at High Springs historic cottage exterior or featured stay photo',
+  },
 ];

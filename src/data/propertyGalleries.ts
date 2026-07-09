@@ -262,4 +262,64 @@ export const propertyGalleries: Record<string, PropertyGalleryDetails> = {
       },
     ],
   },
+
+  'the-cottage-at-high-springs': {
+    eyebrow: 'Historic High Springs cottage',
+    shortIntro:
+      'A beautifully restored 1940s cottage tucked in a quiet neighborhood just minutes from downtown High Springs.',
+    highlights: [
+      'Historic 1940s cottage character',
+      'Cozy interiors with modern comfort',
+      'Private outdoor seating',
+      'Minutes from downtown High Springs, springs, rivers, and trails',
+    ],
+    bestFor: ['Couples', 'Families', 'Weekend escapes', 'Springs visitors'],
+    photos: [
+      {
+        src: '/images/properties/the-cottage-at-high-springs/01-livingroom.avif',
+        alt: 'Living room at The Cottage at High Springs',
+        caption: 'Living room',
+      },
+      {
+        src: '/images/properties/the-cottage-at-high-springs/02-diningarea.jpeg',
+        alt: 'Dining area at The Cottage at High Springs',
+        caption: 'Dining area',
+      },
+      {
+        src: '/images/properties/the-cottage-at-high-springs/03-kitchen.avif',
+        alt: 'Kitchen at The Cottage at High Springs',
+        caption: 'Kitchen',
+      },
+      {
+        src: '/images/properties/the-cottage-at-high-springs/04-kitchen2.avif',
+        alt: 'Second kitchen view at The Cottage at High Springs',
+        caption: 'Kitchen details',
+      },
+      {
+        src: '/images/properties/the-cottage-at-high-springs/05-masterbedroom.avif',
+        alt: 'Primary bedroom at The Cottage at High Springs',
+        caption: 'Primary bedroom',
+      },
+      {
+        src: '/images/properties/the-cottage-at-high-springs/06-bedroom2.avif',
+        alt: 'Second bedroom at The Cottage at High Springs',
+        caption: 'Second bedroom',
+      },
+      {
+        src: '/images/properties/the-cottage-at-high-springs/07-bedroom3.avif',
+        alt: 'Third bedroom at The Cottage at High Springs',
+        caption: 'Third bedroom',
+      },
+      {
+        src: '/images/properties/the-cottage-at-high-springs/08-bathroom1.avif',
+        alt: 'Bathroom at The Cottage at High Springs',
+        caption: 'Bathroom',
+      },
+      {
+        src: '/images/properties/the-cottage-at-high-springs/09-bathroom2.jpeg',
+        alt: 'Second bathroom view at The Cottage at High Springs',
+        caption: 'Bathroom details',
+      },
+    ],
+  },
 };
