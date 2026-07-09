@@ -426,3 +426,199 @@ li {
     line-height: 1.68;
   }
 }
+
+.rental-detail-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.22fr) minmax(320px, 0.78fr);
+  gap: clamp(1.5rem, 4vw, 3rem);
+  align-items: center;
+  padding: clamp(1rem, 2.7vw, 1.8rem);
+  border-radius: 34px;
+  background:
+    linear-gradient(135deg, rgba(255, 252, 244, 0.76), rgba(242, 211, 150, 0.38)),
+    linear-gradient(180deg, rgba(255, 241, 210, 0.74), rgba(255, 250, 240, 0.82));
+  box-shadow: 0 16px 38px rgba(111, 75, 35, 0.07);
+}
+
+.rental-detail-hero__media {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(130px, 0.58fr);
+  gap: 0.85rem;
+  min-height: 520px;
+}
+
+.rental-detail-hero__main-image,
+.rental-detail-hero__thumb-grid img,
+.rental-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rental-detail-hero__main-image {
+  border-radius: 30px;
+  box-shadow: 0 20px 40px rgba(111, 75, 35, 0.16);
+}
+
+.rental-detail-hero__thumb-grid {
+  display: grid;
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.rental-detail-hero__thumb-grid img {
+  min-height: 0;
+  border-radius: 22px;
+  box-shadow: 0 12px 24px rgba(111, 75, 35, 0.1);
+}
+
+.rental-detail-hero__content h1 {
+  font-size: clamp(2rem, 4.6vw, 4rem);
+  line-height: 1.05;
+  letter-spacing: -0.032em;
+}
+
+.rental-detail-location {
+  margin-bottom: 0.7rem;
+  color: var(--color-teal);
+  font-size: 1.02rem;
+}
+
+.rental-detail-snapshot {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.72fr);
+  gap: 1.2rem;
+}
+
+.rental-detail-snapshot article {
+  padding: clamp(1.25rem, 2.4vw, 1.8rem);
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(255, 252, 244, 0.78), rgba(248, 232, 198, 0.56));
+  border: 1px solid rgba(111, 75, 35, 0.075);
+  box-shadow: 0 10px 24px rgba(111, 75, 35, 0.048);
+}
+
+.rental-tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.rental-tag-list span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.2rem;
+  padding: 0.42rem 0.8rem;
+  border-radius: 999px;
+  color: var(--color-harbor);
+  background: rgba(255, 250, 240, 0.8);
+  border: 1px solid rgba(184, 121, 47, 0.18);
+  box-shadow: 0 8px 18px rgba(111, 75, 35, 0.045);
+}
+
+.rental-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-flow: dense;
+  gap: 0.9rem;
+}
+
+.rental-photo {
+  position: relative;
+  min-height: 260px;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 28px;
+  background: rgba(255, 250, 240, 0.74);
+  box-shadow: 0 14px 30px rgba(111, 75, 35, 0.08);
+}
+
+.rental-photo--wide {
+  grid-column: span 2;
+  min-height: 330px;
+}
+
+.rental-photo figcaption {
+  position: absolute;
+  left: 0.8rem;
+  bottom: 0.8rem;
+  padding: 0.34rem 0.65rem;
+  border-radius: 999px;
+  color: #fffaf0;
+  background: rgba(63, 52, 40, 0.58);
+  backdrop-filter: blur(8px);
+  font-size: 0.82rem;
+}
+
+.rental-detail-cta {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5rem;
+  align-items: center;
+  padding: clamp(1.25rem, 2.4vw, 1.8rem);
+  border-radius: 34px;
+  background: linear-gradient(135deg, rgba(250, 231, 193, 0.8), rgba(255, 250, 240, 0.76));
+  box-shadow: 0 12px 30px rgba(111, 75, 35, 0.06);
+}
+
+.rental-detail-cta p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 980px) {
+  .rental-detail-hero,
+  .rental-detail-snapshot,
+  .rental-detail-cta {
+    grid-template-columns: 1fr;
+  }
+
+  .rental-detail-hero__media {
+    min-height: 420px;
+  }
+
+  .rental-photo-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .rental-detail-cta .button-row {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 640px) {
+  .rental-detail-hero {
+    border-radius: 24px;
+  }
+
+  .rental-detail-hero__media {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+
+  .rental-detail-hero__main-image {
+    height: 310px;
+  }
+
+  .rental-detail-hero__thumb-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: none;
+  }
+
+  .rental-detail-hero__thumb-grid img {
+    height: 150px;
+  }
+
+  .rental-photo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .rental-photo,
+  .rental-photo--wide {
+    grid-column: auto;
+    min-height: 250px;
+  }
+
+  .rental-detail-hero__content h1 {
+    font-size: 2rem;
+  }
+}
