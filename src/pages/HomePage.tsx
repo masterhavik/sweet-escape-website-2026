@@ -10,8 +10,8 @@ const homeGallery = [
     alt: 'Golden country scenery near a Sweet Escape rental',
   },
   {
-    src: '/images/gallery/house_interior2.webp',
-    alt: 'Bright furnished interior at a Sweet Escape rental',
+    src: '/images/gallery/country_driveway.webp',
+    alt: 'Country driveway leading to a rental property',
   },
   {
     src: '/images/gallery/hazy_water_kayak.webp',
@@ -44,7 +44,7 @@ export function HomePage() {
             alt="Large yellow historic-style Sweet Escape property"
           />
           <div className="photo-hero__stack">
-            <img src="/images/gallery/country_driveway.webp" alt="Country driveway leading to a rental property" />
+            <img src="/images/gallery/house_interior2.webp" alt="Bright furnished interior at a Sweet Escape rental" />
             <img src="/images/gallery/table_setting.webp" alt="Welcoming table setting inside a rental home" />
           </div>
         </div>
