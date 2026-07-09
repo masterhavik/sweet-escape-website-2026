@@ -106,7 +106,7 @@ export function HomePage() {
         </div>
         <div className="services-teaser__content">
           <p className="eyebrow">For owners</p>
-          <h2>Property care without the cold, corporate feel.</h2>
+          <h2>Property care with a personal touch.</h2>
           <p>
             Sweet Escape helps owners with the work behind a well-run rental: cleanings, turnovers,
             supplies, maintenance coordination, presentation, and local follow-through.
