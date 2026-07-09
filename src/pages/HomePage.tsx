@@ -4,6 +4,8 @@ import { getPlatformButtonClass } from '../data/platformPalette';
 import { siteHero } from '../data/site';
 import { testimonials } from '../data/testimonials';
 
+const featuredProperties = properties.slice(0, 3);
+
 const homeGallery = [
   {
     src: '/images/gallery/country_scenery.webp',
@@ -67,7 +69,7 @@ export function HomePage() {
           <h2>Browse Sweet Escape rentals.</h2>
         </div>
         <div className="card-grid property-card-grid">
-          {properties.map((property) => (
+          {featuredProperties.map((property) => (
             <article key={property.slug} className="card property-card">
               <div className="property-card__image-wrap">
                 <img className="property-card__image" src={property.imageSrc} alt={property.imageAlt} />
