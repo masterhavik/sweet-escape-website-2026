@@ -13,9 +13,7 @@ export function ContactPage() {
             Reach out about a rental, owner services, cleaning and turnover support, maintenance
             coordination, or a general Sweet Escape question.
           </p>
-          <p>
-            We will review your message and follow up as soon as we can.
-          </p>
+          <p>We will review your message and follow up as soon as we can.</p>
         </div>
       </section>
 
@@ -23,9 +21,7 @@ export function ContactPage() {
         <div>
           <p className="eyebrow">Direct contact</p>
           <h2>Prefer email?</h2>
-          <p>
-            You can also reach Sweet Escape directly at:
-          </p>
+          <p>You can also reach Sweet Escape directly at:</p>
           <p>
             <a href="mailto:sweetescapepropertymanagement@gmail.com">
               sweetescapepropertymanagement@gmail.com
@@ -63,10 +59,11 @@ export function ContactPage() {
             title="Sweet Escape contact form"
             src="https://tally.so/embed/Mey45M?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
             width="100%"
-            height="760"
+            height="1150"
             frameBorder="0"
             marginHeight={0}
             marginWidth={0}
+            scrolling="no"
             style={{ display: 'block', border: 0 }}
           >
             Loading…
