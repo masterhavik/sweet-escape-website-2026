@@ -43,8 +43,11 @@ export function SiteLayout() {
             </div>
           </div>
           <div className="site-footer__contact">
-            <p>Email: sweetescapepropertymanagement@gmail.com</p>
-            <p>Consultations by appointment</p>
+            <p>
+              Email: sweetescapepropertymanagement@gmail.com
+              <br />
+              Consultations by appointment
+            </p>
           </div>
         </div>
       </footer>
