@@ -6,8 +6,8 @@ import { testimonials } from '../data/testimonials';
 
 const homeGallery = [
   {
-    src: '/images/gallery/camper_blue_chairs.webp',
-    alt: 'Outdoor chairs beside a blue camper at a Sweet Escape rental',
+    src: '/images/gallery/country_scenery.webp',
+    alt: 'Golden country scenery near a Sweet Escape rental',
   },
   {
     src: '/images/gallery/house_interior2.webp',
