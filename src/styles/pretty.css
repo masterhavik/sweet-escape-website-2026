@@ -19,6 +19,58 @@ body {
     linear-gradient(180deg, #fff8ea 0%, #f9ecd3 48%, #f7e6c4 100%);
 }
 
+
+.site-main {
+  padding-top: clamp(1.4rem, 3vw, 2.4rem);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+
+h1 {
+  line-height: 1.05;
+}
+
+h2 {
+  line-height: 1.22;
+}
+
+h3 {
+  line-height: 1.28;
+}
+
+p,
+li {
+  line-height: 1.72;
+}
+
+.lead {
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.eyebrow {
+  letter-spacing: 0.18em;
+  font-weight: 600;
+  opacity: 0.86;
+}
+
+.button {
+  font-weight: 500;
+}
+
+.page-stack {
+  gap: clamp(2.2rem, 4vw, 3.35rem);
+}
+
+.section-heading {
+  margin-bottom: 1.25rem;
+}
+
+
 .site-header {
   background: rgba(255, 248, 234, 0.86);
   border-bottom-color: rgba(111, 75, 35, 0.08);
@@ -45,18 +97,18 @@ body {
   background:
     linear-gradient(135deg, rgba(255, 252, 244, 0.7), rgba(242, 211, 150, 0.42)),
     linear-gradient(180deg, rgba(255, 241, 210, 0.86), rgba(255, 250, 240, 0.74));
-  box-shadow: 0 18px 44px rgba(111, 75, 35, 0.09);
+  box-shadow: 0 16px 38px rgba(111, 75, 35, 0.072);
 }
 
 .photo-hero h1 {
   font-size: clamp(2.15rem, 5vw, 4.45rem);
-  letter-spacing: -0.045em;
-  line-height: 0.98;
+  letter-spacing: -0.032em;
+  line-height: 1.04;
 }
 
 .photo-hero .lead {
   max-width: 42rem;
-  font-size: clamp(1rem, 1.45vw, 1.16rem);
+  font-size: clamp(1rem, 1.35vw, 1.12rem);
 }
 
 .photo-hero__media {
@@ -122,7 +174,7 @@ body {
   border-radius: 34px;
   background:
     linear-gradient(135deg, rgba(255, 250, 240, 0.72), rgba(245, 224, 184, 0.5));
-  box-shadow: 0 16px 36px rgba(111, 75, 35, 0.07);
+  box-shadow: 0 14px 32px rgba(111, 75, 35, 0.055);
 }
 
 .services-teaser__image-wrap {
@@ -155,7 +207,7 @@ body {
   padding: clamp(1rem, 2.5vw, 1.8rem);
   border-radius: 34px;
   background: linear-gradient(135deg, rgba(255, 243, 219, 0.78), rgba(255, 250, 240, 0.82));
-  box-shadow: 0 18px 44px rgba(111, 75, 35, 0.085);
+  box-shadow: 0 16px 38px rgba(111, 75, 35, 0.068);
 }
 
 .services-hero__image-wrap {
@@ -167,8 +219,8 @@ body {
 
 .services-hero h1 {
   font-size: clamp(2rem, 4.3vw, 3.8rem);
-  letter-spacing: -0.04em;
-  line-height: 1;
+  letter-spacing: -0.028em;
+  line-height: 1.06;
 }
 
 .service-card-grid {
@@ -181,11 +233,11 @@ body {
 .card {
   background: linear-gradient(180deg, rgba(255, 252, 244, 0.78), rgba(248, 232, 198, 0.56));
   border-color: rgba(111, 75, 35, 0.075);
-  box-shadow: 0 12px 30px rgba(111, 75, 35, 0.065);
+  box-shadow: 0 10px 24px rgba(111, 75, 35, 0.048);
 }
 
 .service-card {
-  padding: 1.35rem;
+  padding: 1.45rem;
   border-radius: 28px;
   border: 1px solid rgba(111, 75, 35, 0.075);
 }
@@ -197,7 +249,7 @@ body {
 .property-card {
   background: linear-gradient(180deg, rgba(255, 252, 244, 0.86), rgba(248, 232, 198, 0.62));
   border-color: rgba(111, 75, 35, 0.08);
-  box-shadow: 0 14px 32px rgba(111, 75, 35, 0.08);
+  box-shadow: 0 12px 28px rgba(111, 75, 35, 0.058);
 }
 
 .property-card__image-wrap {
@@ -366,5 +418,11 @@ body {
   .photo-hero h1,
   .services-hero h1 {
     font-size: 2rem;
+    line-height: 1.08;
+  }
+
+  p,
+  li {
+    line-height: 1.68;
   }
 }
