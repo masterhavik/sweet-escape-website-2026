@@ -76,15 +76,45 @@ export const propertyGalleries: Record<string, PropertyGalleryDetails> = {
   'edith-vintage-cruiser-rv': {
     eyebrow: 'Vintage cruiser stay',
     shortIntro:
-      'A charming vintage RV stay with personality, cozy details, and a memorable High Springs setting.',
+      'A charming vintage RV stay with personality, cozy outdoor space, and a memorable High Springs setting.',
     highlights: [
       'Unique vintage cruiser experience',
       'Cozy, character-filled stay',
-      'Downtown High Springs location',
+      'Outdoor seating and relaxed setup',
       'A fun alternative to a standard hotel room',
     ],
     bestFor: ['Couples', 'Solo travelers', 'Weekend escapes', 'Springs visitors'],
     photos: [
+      {
+        src: '/images/properties/edith-rv/new_hero.jpg',
+        alt: 'Edith vintage cruiser RV exterior and outdoor stay area',
+        caption: 'Edith outside',
+      },
+      {
+        src: '/images/properties/edith-rv/20260408_184705.jpg',
+        alt: 'Outdoor photo of Edith vintage cruiser RV',
+        caption: 'Outdoor seating',
+      },
+      {
+        src: '/images/properties/edith-rv/20260408_184720.jpg',
+        alt: 'Outdoor detail photo of Edith vintage cruiser RV',
+        caption: 'Camper exterior',
+      },
+      {
+        src: '/images/properties/edith-rv/20260416_193228.jpg',
+        alt: 'Evening exterior photo of Edith vintage cruiser RV',
+        caption: 'Evening outside',
+      },
+      {
+        src: '/images/properties/edith-rv/20260416_193238.jpg',
+        alt: 'Evening outdoor setup at Edith vintage cruiser RV',
+        caption: 'Outdoor setup',
+      },
+      {
+        src: '/images/properties/edith-rv/20260416_211126~2.jpg',
+        alt: 'Nighttime exterior photo of Edith vintage cruiser RV',
+        caption: 'Nighttime glow',
+      },
       {
         src: '/images/properties/edith-rv/01-reference-photo.jpg',
         alt: 'Edith vintage cruiser RV reference photo',

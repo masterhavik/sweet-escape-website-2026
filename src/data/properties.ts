@@ -34,8 +34,8 @@ export const properties: Property[] = [
     bookingUrl:
       'https://www.airbnb.com/rooms/1437993630819769843?guests=1&adults=1&s=67&unique_share_id=0f55a05b-4c12-4175-9832-3f7c13e677d9',
     externalBookingLabel: 'Airbnb',
-    imageSrc: '/images/properties/edith-rv/hero.webp',
-    imageAlt: 'Edith vintage cruiser RV featured stay photo',
+    imageSrc: '/images/properties/edith-rv/new_hero.jpg',
+    imageAlt: 'Edith vintage cruiser RV exterior and outdoor stay area',
   },
   {
     slug: 'private-patio-view-trenton',
