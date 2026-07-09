@@ -61,11 +61,11 @@ export function AboutPage() {
           <p className="eyebrow">Our approach</p>
           <h2>Local, practical, and personal.</h2>
           <ul className="pretty-check-list">
-            <li>We care about presentation because guests notice the details.</li>
-            <li>We communicate clearly because owners should not be left guessing.</li>
-            <li>We pay attention to cleaning and turnovers because consistency matters.</li>
-            <li>We follow up on maintenance because small issues become big ones fast.</li>
-            <li>We treat each property like something valuable, because it is.</li>
+            <li>We care about presentation because guests notice details.</li>
+            <li>We communicate clearly so owners are not left guessing.</li>
+            <li>We keep cleaning and turnovers consistent.</li>
+            <li>We follow up on maintenance before small issues grow.</li>
+            <li>We treat each property like something valuable.</li>
           </ul>
         </div>
 
@@ -82,8 +82,7 @@ export function AboutPage() {
           <p>
             Guests want a clean, comfortable place that feels ready when they arrive. Owners want to
             know their property is being watched, cared for, and represented well. Sweet Escape sits
-            in the middle of those needs and tries to handle both with common sense and steady
-            follow-through.
+            in the middle of those needs and handles both with common sense and steady follow-through.
           </p>
         </div>
 
