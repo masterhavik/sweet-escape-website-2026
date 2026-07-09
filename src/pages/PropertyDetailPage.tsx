@@ -22,7 +22,7 @@ export function PropertyDetailPage() {
   const gallery = propertyGalleries[property.slug];
   const isEdith = property.slug === 'edith-vintage-cruiser-rv';
   const featurePhotos = gallery?.photos.slice(0, 4) ?? [];
-  const primaryHeroImage = gallery?.photos[0] ?? {
+  const primaryHeroImage = {
     src: property.imageSrc,
     alt: property.imageAlt,
   };
