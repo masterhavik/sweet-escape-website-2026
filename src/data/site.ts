@@ -1,7 +1,6 @@
 export const siteNavigation = [
   { label: 'Home', to: '/' },
   { label: 'Rentals', to: '/rentals' },
-  { label: 'Book Now', to: '/book-now' },
   { label: 'Services', to: '/services' },
   { label: 'About', to: '/about' },
   { label: 'Contact', to: '/contact' },
