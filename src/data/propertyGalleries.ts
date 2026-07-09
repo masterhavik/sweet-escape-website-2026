@@ -322,7 +322,6 @@ export const propertyGalleries: Record<string, PropertyGalleryDetails> = {
       },
     ],
   },
-,
 
   'pickard-springs': {
     eyebrow: 'Private Santa Fe River spring',
