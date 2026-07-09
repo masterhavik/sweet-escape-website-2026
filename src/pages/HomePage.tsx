@@ -17,10 +17,7 @@ export function HomePage() {
               Explore Rentals
             </Link>
             <Link className="button button--secondary" to="/services">
-              Explore Services
-            </Link>
-            <Link className="button button--ghost" to="/sweet-escape-pms">
-              Explore PMS App
+              Owner Services
             </Link>
           </div>
         </div>
@@ -64,28 +61,28 @@ export function HomePage() {
       <section className="panel">
         <div className="section-heading">
           <p className="eyebrow">What Sweet Escape offers</p>
-          <h2>A clearer home for guests, owners, and growing rental operations.</h2>
+          <h2>A clearer home for guests, owners, and well-cared-for rentals.</h2>
         </div>
         <div className="card-grid">
           <article className="card">
             <h3>Browse and book stays</h3>
             <p>
-              The new site is being structured to showcase featured rentals in a cleaner, more
-              professional format that can later support direct booking.
+              Explore featured Sweet Escape rentals with clear property details, inviting photos,
+              and direct links to current booking listings.
             </p>
           </article>
           <article className="card">
             <h3>Learn about our management approach</h3>
             <p>
-              Sweet Escape is more than a listing page. It is also a property-management business
-              focused on practical support, polish, and day-to-day coordination.
+              Sweet Escape helps owners keep their properties guest-ready with practical support,
+              local coordination, and attention to the details that shape each stay.
             </p>
           </article>
           <article className="card">
-            <h3>See the Sweet Escape PMS platform</h3>
+            <h3>Keep properties cared for</h3>
             <p>
-              The website is also becoming a place to present Sweet Escape PMS as a real business
-              product built around short-term rental operations.
+              From turnover coordination to owner communication and property presentation, Sweet
+              Escape focuses on steady, hands-on support for short-term rental homes.
             </p>
           </article>
         </div>

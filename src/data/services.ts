@@ -2,7 +2,7 @@ export const serviceHighlights = [
   {
     title: 'Setup and launch support',
     description:
-      'Help new and existing rental properties get guest-ready with a more polished operational foundation.',
+      'Help new and existing rental properties get guest-ready with a more polished foundation for photos, listings, supplies, and owner expectations.',
   },
   {
     title: 'Ongoing management support',
@@ -10,13 +10,13 @@ export const serviceHighlights = [
       'Practical day-to-day oversight designed to keep communication, coordination, and guest experience moving smoothly.',
   },
   {
-    title: 'Cleaner and operations coordination',
+    title: 'Cleaner and turnover coordination',
     description:
-      'Workflows that help reduce missed details, improve turnover visibility, and keep teams aligned.',
+      'Support for cleaner scheduling, turnover expectations, supply awareness, and the small details that keep each stay on track.',
   },
   {
-    title: 'Tools built around real operations',
+    title: 'Local property care',
     description:
-      'A more tailored approach for operators who want systems shaped by actual short-term rental needs.',
+      'Hands-on Gainesville-area support for owners who want their homes watched, maintained, and presented with consistent attention.',
   },
 ];
