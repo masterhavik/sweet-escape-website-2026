@@ -45,7 +45,8 @@ export function AboutPage() {
           <h2>Comfortable with the major rental platforms.</h2>
           <p>
             We have hands-on experience working with the major rental platforms guests and owners
-            already use, including Airbnb, Vrbo, Booking.com, Evolve, and direct rental workflows.
+            already use, including Airbnb, Vrbo, Booking.com, Evolve, Furnished Finder, and direct
+            rental workflows.
           </p>
           <p>
             That matters because each platform has its own quirks, guest expectations, calendars,
@@ -70,7 +71,7 @@ export function AboutPage() {
 
         <div className="services-photo-feature__image-grid">
           <img src="/images/gallery/table_setting.webp" alt="Guest-ready table setting at a Sweet Escape rental" />
-          <img src="/images/gallery/welcome_mat.webp" alt="Welcome mat at a Sweet Escape property" />
+          <img src="/images/gallery/camper_mat.png" alt="Home is where you park camper welcome mat" />
         </div>
       </section>
 

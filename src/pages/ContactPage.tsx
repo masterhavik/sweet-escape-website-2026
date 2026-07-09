@@ -3,7 +3,7 @@ export function ContactPage() {
     <div className="page-stack">
       <section className="panel services-hero">
         <div className="services-hero__image-wrap">
-          <img src="/images/gallery/welcome_mat.webp" alt="Welcome mat at a Sweet Escape property" />
+          <img src="/images/gallery/camper_mat.png" alt="Home is where you park camper welcome mat" />
         </div>
 
         <div className="services-hero__content">

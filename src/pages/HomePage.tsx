@@ -102,7 +102,7 @@ export function HomePage() {
 
       <section className="panel services-teaser">
         <div className="services-teaser__image-wrap">
-          <img src="/images/gallery/welcome_mat.webp" alt="Welcome mat at a Sweet Escape property" />
+          <img src="/images/gallery/camper_mat.png" alt="Home is where you park camper welcome mat" />
         </div>
         <div className="services-teaser__content">
           <p className="eyebrow">For owners</p>

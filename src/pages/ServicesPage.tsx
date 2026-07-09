@@ -55,7 +55,7 @@ export function ServicesPage() {
       </section>
 
       <section className="panel services-final-cta">
-        <img src="/images/gallery/welcome_mat.webp" alt="Welcome mat at a Sweet Escape rental" />
+        <img src="/images/gallery/camper_mat.png" alt="Home is where you park camper welcome mat" />
         <div>
           <p className="eyebrow">Ready to talk?</p>
           <h2>Tell us what kind of support your property needs.</h2>
