@@ -4,11 +4,26 @@ import { getPlatformButtonClass } from '../data/platformPalette';
 import { siteHero } from '../data/site';
 import { testimonials } from '../data/testimonials';
 
+const homeGallery = [
+  {
+    src: '/images/gallery/camper_blue_chairs.webp',
+    alt: 'Outdoor chairs beside a blue camper at a Sweet Escape rental',
+  },
+  {
+    src: '/images/gallery/house_interior2.webp',
+    alt: 'Bright furnished interior at a Sweet Escape rental',
+  },
+  {
+    src: '/images/gallery/hazy_water_kayak.webp',
+    alt: 'Quiet water view with a kayak',
+  },
+];
+
 export function HomePage() {
   return (
     <div className="page-stack">
-      <section className="hero-section panel">
-        <div className="hero-layout__content">
+      <section className="panel photo-hero">
+        <div className="photo-hero__content">
           <p className="eyebrow">{siteHero.eyebrow}</p>
           <h1>{siteHero.title}</h1>
           <p className="lead">{siteHero.description}</p>
@@ -21,9 +36,36 @@ export function HomePage() {
             </Link>
           </div>
         </div>
+
+        <div className="photo-hero__media" aria-label="Sweet Escape property photos">
+          <img
+            className="photo-hero__main-image"
+            src="/images/gallery/big_yellow_old_house.webp"
+            alt="Large yellow historic-style Sweet Escape property"
+          />
+          <div className="photo-hero__stack">
+            <img src="/images/gallery/country_driveway.webp" alt="Country driveway leading to a rental property" />
+            <img src="/images/gallery/table_setting.webp" alt="Welcoming table setting inside a rental home" />
+          </div>
+        </div>
+      </section>
+
+      <section className="panel intro-split">
+        <div>
+          <p className="eyebrow">For guests</p>
+          <h2>Comfortable places to stay, with the details already thought through.</h2>
+        </div>
+        <p>
+          Whether it is a quiet getaway, a furnished monthly stay, or a family visit near Gainesville,
+          Sweet Escape focuses on homes that feel cared for before guests ever walk through the door.
+        </p>
       </section>
 
       <section className="panel">
+        <div className="section-heading section-heading--centered">
+          <p className="eyebrow">Featured stays</p>
+          <h2>Browse Sweet Escape rentals.</h2>
+        </div>
         <div className="card-grid property-card-grid">
           {properties.map((property) => (
             <article key={property.slug} className="card property-card">
@@ -58,34 +100,29 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="panel">
-        <div className="section-heading">
-          <p className="eyebrow">What Sweet Escape offers</p>
-          <h2>A clearer home for guests, owners, and well-cared-for rentals.</h2>
+      <section className="panel services-teaser">
+        <div className="services-teaser__image-wrap">
+          <img src="/images/gallery/welcome_mat.webp" alt="Welcome mat at a Sweet Escape property" />
         </div>
-        <div className="card-grid">
-          <article className="card">
-            <h3>Browse and book stays</h3>
-            <p>
-              Explore featured Sweet Escape rentals with clear property details, inviting photos,
-              and direct links to current booking listings.
-            </p>
-          </article>
-          <article className="card">
-            <h3>Learn about our management approach</h3>
-            <p>
-              Sweet Escape helps owners keep their properties guest-ready with practical support,
-              local coordination, and attention to the details that shape each stay.
-            </p>
-          </article>
-          <article className="card">
-            <h3>Keep properties cared for</h3>
-            <p>
-              From turnover coordination to owner communication and property presentation, Sweet
-              Escape focuses on steady, hands-on support for short-term rental homes.
-            </p>
-          </article>
+        <div className="services-teaser__content">
+          <p className="eyebrow">For owners</p>
+          <h2>Property care without the cold, corporate feel.</h2>
+          <p>
+            Sweet Escape helps owners with the work behind a well-run rental: cleanings, turnovers,
+            supplies, maintenance coordination, presentation, and local follow-through.
+          </p>
+          <div className="button-row">
+            <Link className="button button--primary" to="/services">
+              See Owner Services
+            </Link>
+          </div>
         </div>
+      </section>
+
+      <section className="panel photo-strip" aria-label="Sweet Escape gallery preview">
+        {homeGallery.map((image) => (
+          <img key={image.src} src={image.src} alt={image.alt} />
+        ))}
       </section>
 
       <section className="panel testimonial-panel">

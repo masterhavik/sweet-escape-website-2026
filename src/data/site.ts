@@ -9,7 +9,7 @@ export const siteNavigation = [
 
 export const siteHero = {
   eyebrow: 'Sweet Escape Property Management',
-  title: 'Beautiful stays and thoughtful management for Gainesville-area homes.',
+  title: 'Beautiful homes, welcoming stays, and hands-on property care.',
   description:
-    'Sweet Escape offers guest-ready vacation rentals, hands-on property care, and practical support for owners who want their homes looked after with attention and consistency.',
+    'Sweet Escape offers furnished rentals and practical local support for owners who want their properties guest-ready, cared for, and thoughtfully presented.',
 };
