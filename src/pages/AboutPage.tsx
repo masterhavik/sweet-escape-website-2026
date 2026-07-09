@@ -65,7 +65,7 @@ export function AboutPage() {
             <li>We communicate clearly so owners are not left guessing.</li>
             <li>We keep cleaning and turnovers consistent.</li>
             <li>We follow up on maintenance before small issues grow.</li>
-            <li>We treat each property like something valuable.</li>
+            <li>We treat each property like the valuable thing it is.</li>
           </ul>
         </div>
 
