@@ -50,4 +50,16 @@ export const properties: Property[] = [
     imageSrc: '/images/properties/private-patio-trenton/hero.webp',
     imageAlt: 'Private Patio with View featured property photo in Trenton',
   },
+  {
+    slug: 'paddle-swim-high-springs',
+    name: 'Paddle, Swim & More! Charming Home',
+    location: 'High Springs, Florida',
+    summary: 'Pet-friendly 2BR High Springs home near the springs, river, town, and UF.',
+    description:
+      'A charming High Springs home base for springs trips, paddling days, college visits, and relaxed porch time.',
+    bookingUrl: 'https://evolve.com/vacation-rentals/us/fl/high-springs/560026',
+    externalBookingLabel: 'Evolve',
+    imageSrc: '/images/properties/paddle-swim-high-springs/hero.jpg',
+    imageAlt: 'Paddle, Swim and More charming High Springs home exterior',
+  },
 ];
