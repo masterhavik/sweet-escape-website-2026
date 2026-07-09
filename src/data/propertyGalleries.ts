@@ -318,7 +318,7 @@ export const propertyGalleries: Record<string, PropertyGalleryDetails> = {
       {
         src: '/images/properties/the-cottage-at-high-springs/09-bathroom2.jpeg',
         alt: 'Second bathroom view at The Cottage at High Springs',
-        caption: 'Bathroom details',
+        caption: 'Second bathroom',
       },
     ],
   },
