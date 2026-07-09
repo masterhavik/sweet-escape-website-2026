@@ -622,3 +622,36 @@ li {
     font-size: 2rem;
   }
 }
+
+.rental-detail-hero__media--compact {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(3, minmax(130px, 1fr));
+  min-height: 520px;
+}
+
+.rental-detail-hero__media--compact img {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  object-fit: cover;
+  border-radius: 24px;
+  box-shadow: 0 14px 28px rgba(111, 75, 35, 0.1);
+}
+
+.rental-detail-hero__compact-feature {
+  grid-row: span 2;
+}
+
+@media (max-width: 640px) {
+  .rental-detail-hero__media--compact {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    min-height: 0;
+  }
+
+  .rental-detail-hero__media--compact img,
+  .rental-detail-hero__compact-feature {
+    grid-row: auto;
+    height: 220px;
+  }
+}

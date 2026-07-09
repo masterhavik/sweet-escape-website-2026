@@ -20,22 +20,40 @@ export function PropertyDetailPage() {
   }
 
   const gallery = propertyGalleries[property.slug];
-  const featurePhotos = gallery?.photos.slice(0, 4) ?? [];
+  const isEdith = property.slug === 'edith-vintage-cruiser-rv';
+  const featurePhotos = gallery?.photos.slice(0, isEdith ? 5 : 4) ?? [];
+  const primaryHeroImage = gallery?.photos[0] ?? {
+    src: property.imageSrc,
+    alt: property.imageAlt,
+  };
 
   return (
     <div className="page-stack">
       <section className="panel rental-detail-hero">
-        <div className="rental-detail-hero__media">
-          <img className="rental-detail-hero__main-image" src={property.imageSrc} alt={property.imageAlt} />
+        {isEdith && featurePhotos.length > 0 ? (
+          <div className="rental-detail-hero__media rental-detail-hero__media--compact">
+            {featurePhotos.map((photo, index) => (
+              <img
+                key={photo.src}
+                className={index === 0 ? 'rental-detail-hero__compact-feature' : undefined}
+                src={photo.src}
+                alt={photo.alt}
+              />
+            ))}
+          </div>
+        ) : (
+          <div className="rental-detail-hero__media">
+            <img className="rental-detail-hero__main-image" src={primaryHeroImage.src} alt={primaryHeroImage.alt} />
 
-          {featurePhotos.length > 0 && (
-            <div className="rental-detail-hero__thumb-grid">
-              {featurePhotos.map((photo) => (
-                <img key={photo.src} src={photo.src} alt={photo.alt} />
-              ))}
-            </div>
-          )}
-        </div>
+            {featurePhotos.length > 0 && (
+              <div className="rental-detail-hero__thumb-grid">
+                {featurePhotos.map((photo) => (
+                  <img key={photo.src} src={photo.src} alt={photo.alt} />
+                ))}
+              </div>
+            )}
+          </div>
+        )}
 
         <div className="rental-detail-hero__content">
           <p className="eyebrow">{gallery?.eyebrow ?? 'Featured rental'}</p>
