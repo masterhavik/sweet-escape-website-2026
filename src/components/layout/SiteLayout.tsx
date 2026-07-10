@@ -51,7 +51,7 @@ export function SiteLayout() {
           </div>
           <div className="site-footer__contact">
             <p>
-              Email: sweetescapepropertymanagement@gmail.com
+              Email: info@sweetescapeproperty.com
               <br />
               Consultations by appointment
             </p>

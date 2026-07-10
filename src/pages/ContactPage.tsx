@@ -23,8 +23,8 @@ export function ContactPage() {
           <h2>Prefer email?</h2>
           <p>You can also reach Sweet Escape directly at:</p>
           <p>
-            <a href="mailto:sweetescapepropertymanagement@gmail.com">
-              sweetescapepropertymanagement@gmail.com
+            <a href="mailto:info@sweetescapeproperty.com">
+              info@sweetescapeproperty.com
             </a>
           </p>
         </div>
