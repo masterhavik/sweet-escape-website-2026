@@ -21,16 +21,34 @@ export function PropertyDetailPage() {
 
   const gallery = propertyGalleries[property.slug];
   const isEdith = property.slug === 'edith-vintage-cruiser-rv';
+  const usesStackedHeroMedia = property.slug === 'gainesville-rental-home';
   const featurePhotos = gallery?.photos.slice(0, 4) ?? [];
   const primaryHeroImage = {
     src: property.imageSrc,
     alt: property.imageAlt,
   };
 
+  const heroClassName = [
+    'panel',
+    'rental-detail-hero',
+    isEdith ? 'rental-detail-hero--wide' : '',
+    usesStackedHeroMedia ? 'rental-detail-hero--stacked-media' : '',
+  ]
+    .filter(Boolean)
+    .join(' ');
+
+  const heroMediaClassName = [
+    'rental-detail-hero__media',
+    isEdith ? 'rental-detail-hero__media--wide' : '',
+    usesStackedHeroMedia ? 'rental-detail-hero__media--stacked' : '',
+  ]
+    .filter(Boolean)
+    .join(' ');
+
   return (
     <div className="page-stack">
-      <section className={isEdith ? 'panel rental-detail-hero rental-detail-hero--wide' : 'panel rental-detail-hero'}>
-        <div className={isEdith ? 'rental-detail-hero__media rental-detail-hero__media--wide' : 'rental-detail-hero__media'}>
+      <section className={heroClassName}>
+        <div className={heroMediaClassName}>
           <img className="rental-detail-hero__main-image" src={primaryHeroImage.src} alt={primaryHeroImage.alt} />
 
           {!isEdith && featurePhotos.length > 0 && (
