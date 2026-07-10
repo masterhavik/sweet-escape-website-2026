@@ -89,4 +89,18 @@ export const properties: Property[] = [
     imageSrc: '/images/properties/pickard-springs/hero.avif',
     imageAlt: 'Pickard Springs private Santa Fe River spring retreat',
   },
+  {
+    slug: 'gainesville-rental-home',
+    name: 'Gainesville Rental Home',
+    location: 'Northwest Gainesville, Florida',
+    summary:
+      'Furnished 4BR/2BA Gainesville home on a private 1-acre wooded lot with utilities included.',
+    description:
+      'A spacious furnished 4-bedroom, 2-bath Gainesville rental home on a private 1-acre wooded lot off scenic 91st Street. With 1,902 square feet of living space, ample parking, natural surroundings, additional storage, and utilities included, this home is a strong fit for families, professionals, relocation, temporary housing, or mid-term stays near Gainesville amenities.',
+    bookingUrl:
+      'https://www.zillow.com/homedetails/307-NW-91st-St-Gainesville-FL-32607/42717491_zpid/?view=public',
+    externalBookingLabel: 'Zillow',
+    imageSrc: '/images/properties/gainesville-rental-home/hero.webp',
+    imageAlt: 'Furnished Gainesville rental home on a private wooded lot',
+  },
 ];

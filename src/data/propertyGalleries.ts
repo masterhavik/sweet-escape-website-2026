@@ -392,4 +392,76 @@ export const propertyGalleries: Record<string, PropertyGalleryDetails> = {
       },
     ],
   }
+,
+
+  'gainesville-rental-home': {
+    eyebrow: 'Furnished mid-term rental',
+    shortIntro:
+      'A spacious furnished 4-bedroom, 2-bath Gainesville home on a private 1-acre wooded lot with utilities included.',
+    highlights: [
+      'Furnished 4BR/2BA single-family home',
+      '1,902 square feet on a private 1-acre wooded lot',
+      'Utilities included',
+      'Ample parking, natural surroundings, and additional storage',
+      'Generously sized bedrooms with reach-in or walk-in closets',
+    ],
+    bestFor: ['Mid-term stays', 'Families', 'Professionals', 'Relocation housing', 'Temporary Gainesville housing'],
+    photos: [
+      {
+        src: '/images/properties/gainesville-rental-home/01-livingroom.webp',
+        alt: 'Living room at Gainesville Rental Home',
+        caption: 'Living room',
+      },
+      {
+        src: '/images/properties/gainesville-rental-home/02-kitchen.webp',
+        alt: 'Kitchen at Gainesville Rental Home',
+        caption: 'Kitchen',
+      },
+      {
+        src: '/images/properties/gainesville-rental-home/03-office.webp',
+        alt: 'Office at Gainesville Rental Home',
+        caption: 'Office',
+      },
+      {
+        src: '/images/properties/gainesville-rental-home/04-livingroom_detail.webp',
+        alt: 'Living room detail at Gainesville Rental Home',
+        caption: 'Living room detail',
+      },
+      {
+        src: '/images/properties/gainesville-rental-home/05-bedroom1.webp',
+        alt: 'Bedroom at Gainesville Rental Home',
+        caption: 'Bedroom',
+      },
+      {
+        src: '/images/properties/gainesville-rental-home/06-bathroom1.webp',
+        alt: 'Bathroom at Gainesville Rental Home',
+        caption: 'Bathroom',
+      },
+      {
+        src: '/images/properties/gainesville-rental-home/07-bathroom2.webp',
+        alt: 'Second bathroom at Gainesville Rental Home',
+        caption: 'Second bathroom',
+      },
+      {
+        src: '/images/properties/gainesville-rental-home/08-florida_room.webp',
+        alt: 'Florida room at Gainesville Rental Home',
+        caption: 'Florida room',
+      },
+      {
+        src: '/images/properties/gainesville-rental-home/09-master_bedroom.webp',
+        alt: 'Primary bedroom at Gainesville Rental Home',
+        caption: 'Primary bedroom',
+      },
+      {
+        src: '/images/properties/gainesville-rental-home/10-master_bathroom1.webp',
+        alt: 'Primary bathroom at Gainesville Rental Home',
+        caption: 'Primary bathroom',
+      },
+      {
+        src: '/images/properties/gainesville-rental-home/11-bedroom2.webp',
+        alt: 'Second bedroom at Gainesville Rental Home',
+        caption: 'Second bedroom',
+      },
+    ],
+  }
 };
