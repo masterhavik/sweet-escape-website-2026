@@ -5,15 +5,6 @@ import { getPlatformButtonClass } from '../data/platformPalette';
 export function RentalsPage() {
   return (
     <div className="page-stack">
-      <section className="panel">
-        <p className="eyebrow">Rentals</p>
-        <h1>Browse featured Sweet Escape stays.</h1>
-        <p className="lead">
-          Explore current Sweet Escape listings and visit each property’s live platform page for
-          booking details and availability.
-        </p>
-      </section>
-
       <section className="card-grid property-card-grid">
         {properties.map((property) => (
           <article key={property.slug} className="card property-card">

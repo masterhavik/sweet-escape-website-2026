@@ -100,7 +100,7 @@ export const properties: Property[] = [
     bookingUrl:
       'https://www.zillow.com/homedetails/307-NW-91st-St-Gainesville-FL-32607/42717491_zpid/?view=public',
     externalBookingLabel: 'Zillow',
-    imageSrc: '/images/properties/gainesville-rental-home/hero.webp',
+    imageSrc: '/images/properties/gainesville-rental-home/hero.png',
     imageAlt: 'Furnished Gainesville rental home on a private wooded lot',
   },
 ];
