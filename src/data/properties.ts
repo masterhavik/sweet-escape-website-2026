@@ -51,18 +51,6 @@ export const properties: Property[] = [
     imageAlt: 'Private Patio with View featured property photo in Trenton',
   },
   {
-    slug: 'paddle-swim-high-springs',
-    name: 'Paddle, Swim & More! Charming Home',
-    location: 'High Springs, Florida',
-    summary: 'Pet-friendly 2BR High Springs home near the springs, river, town, and UF.',
-    description:
-      'A charming High Springs home base for springs trips, paddling days, college visits, and relaxed porch time.',
-    bookingUrl: 'https://evolve.com/vacation-rentals/us/fl/high-springs/560026',
-    externalBookingLabel: 'Evolve',
-    imageSrc: '/images/properties/paddle-swim-high-springs/hero.jpg',
-    imageAlt: 'Paddle, Swim and More charming High Springs home exterior',
-  },
-  {
     slug: 'the-cottage-at-high-springs',
     name: 'The Cottage at High Springs',
     location: 'High Springs, Florida',
@@ -100,7 +88,7 @@ export const properties: Property[] = [
     bookingUrl:
       'https://www.zillow.com/homedetails/307-NW-91st-St-Gainesville-FL-32607/42717491_zpid/?view=public',
     externalBookingLabel: 'Zillow',
-    imageSrc: '/images/properties/gainesville-rental-home/hero.png',
+    imageSrc: '/images/properties/gainesville-rental-home/hero-new.webp',
     imageAlt: 'Furnished Gainesville rental home on a private wooded lot',
   },
 ];
