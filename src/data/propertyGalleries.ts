@@ -213,56 +213,6 @@ export const propertyGalleries: Record<string, PropertyGalleryDetails> = {
     ],
   },
 
-  'paddle-swim-high-springs': {
-    eyebrow: 'High Springs springs getaway',
-    shortIntro:
-      'A charming High Springs home base for springs trips, paddling days, college visits, and relaxed porch time.',
-    highlights: [
-      'Two-bedroom High Springs home',
-      'Comfortable porch and gathering spaces',
-      'Close to springs, river trips, town, and Gainesville',
-      'Good fit for small families, couples, and UF-area visits',
-    ],
-    bestFor: ['Springs trips', 'Paddling weekends', 'Small families', 'UF visits'],
-    photos: [
-      {
-        src: '/images/properties/paddle-swim-high-springs/01-porch.jpg',
-        alt: 'Porch at Paddle, Swim and More High Springs home',
-        caption: 'Porch',
-      },
-      {
-        src: '/images/properties/paddle-swim-high-springs/02-kitchen.jpg',
-        alt: 'Kitchen at Paddle, Swim and More High Springs home',
-        caption: 'Kitchen',
-      },
-      {
-        src: '/images/properties/paddle-swim-high-springs/03-diningroom.jpg',
-        alt: 'Dining room at Paddle, Swim and More High Springs home',
-        caption: 'Dining room',
-      },
-      {
-        src: '/images/properties/paddle-swim-high-springs/04-livingroom.jpg',
-        alt: 'Living room at Paddle, Swim and More High Springs home',
-        caption: 'Living room',
-      },
-      {
-        src: '/images/properties/paddle-swim-high-springs/05-masterbedroom.jpg',
-        alt: 'Primary bedroom at Paddle, Swim and More High Springs home',
-        caption: 'Primary bedroom',
-      },
-      {
-        src: '/images/properties/paddle-swim-high-springs/06-masterbath.jpg',
-        alt: 'Primary bathroom at Paddle, Swim and More High Springs home',
-        caption: 'Primary bathroom',
-      },
-      {
-        src: '/images/properties/paddle-swim-high-springs/07-bunkbeds.jpg',
-        alt: 'Bunk bed room at Paddle, Swim and More High Springs home',
-        caption: 'Bunk room',
-      },
-    ],
-  },
-
   'the-cottage-at-high-springs': {
     eyebrow: 'Historic High Springs cottage',
     shortIntro:
