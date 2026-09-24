@@ -1,0 +1,24 @@
+name: Build Porkbun ZIP
+on:
+  push:
+    branches:
+      - remove-sold-listing-update-gainesville-hero-20260923
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Create Porkbun ZIP
+        run: |
+          cd dist
+          zip -r ../sweet-escape-porkbun.zip .
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sweet-escape-porkbun
+          path: sweet-escape-porkbun.zip
